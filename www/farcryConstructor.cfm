@@ -18,8 +18,8 @@
 <!--- FARCRY SPECIFIC --->
 <cfset THIS.locales = "en_AU,en_US" />
 <cfset THIS.dsn = "fandango" /> 
-<cfset THIS.dbType = "mssql2005" /> 
-<cfset THIS.dbOwner = "dbo." /> 
+<cfset THIS.dbType = "mysql" /> 
+<cfset THIS.dbOwner = "" /> 
 <cfset THIS.plugins = "farcrycms" /> 
 
 <cfset THIS.bUseDeviceDetection = true /> 
@@ -30,7 +30,7 @@
 THE VIRTUAL WEBSERVER PROJECT FOLDER
  --->
 <cfset THIS.projectURL = "" />
-<cfset THIS.webtopURL = "/farcry/core/webtop" />
+<cfset THIS.webtopURL = "/webtop" />
 
 <!--- 
 A key that can be used on updateapp url variable to update the application scope
@@ -50,6 +50,7 @@ SET THIS VALUE IF IT IS DIFFERENT FROM THE APPLICATION NAME
 <!--- <cfsetting requesttimeout="30" /> --->
 <!--- <cfsetting showdebugoutput="true" /> --->
 <!--- <cfsetting enablecfoutputonly="true" /> --->
+
 
 
 
