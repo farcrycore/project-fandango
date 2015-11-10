@@ -16,6 +16,7 @@
 
 
 <!--- FARCRY SPECIFIC --->
+<cfset THIS.bUseENV = true />
 <cfset THIS.locales = "en_AU,en_US" />
 <cfset THIS.dsn = "fandango" /> 
 <cfset THIS.dbType = "mysql" /> 
